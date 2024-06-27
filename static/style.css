@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #FCDC94;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#city_choice {
+  background: #EF9C66;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#result {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  background: #C8CFA0;
+  color: white;
+  border-radius: 15px;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#threedays {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.box {
+  background: #78ABA8;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box button {
+  background: #EF9C66;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+#detail{
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 33px;
+
+}
+
+.box-time {
+  background: #81caf5;
+  width: 250px;
+  height: 220px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#button_for_input{
+  color: white;
+  background: rgb(118, 118, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 176px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#input_line{
+  width: 176px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgb(118, 118, 234);
+}
+
+.chart_div{
+  max-width: 800px;
+  max-height: 500px;
+  margin: 0 auto;
+}

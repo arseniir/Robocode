@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./static/style.css" />
+
+	<title>Document</title>
+</head>
+
+<body>
+	<header>
+		<h1>Weather</h1>
+
+	<form action="#" class="form">
+		<!-- <label for="City"><b>City:</b></label> -->
+		<select name="city_choice" id="city_choice" onchange="resultCards()">
+		  <option value="Odesa">Odesa</option>
+		  <option value="Kyiv">Kyiv</option>
+		  <option value="Kharkiv">Kharkiv</option>
+		  <option value="Lviv">Lviv</option>
+
+		</select>
+    </form>
+	<div id="input_div">
+		<input type="text" id="input_line" placeholder="Search city">
+		<button id="button_for_input" onclick="FieldInputCitySearch()">Send</button>
+	</div>
+	
+	</header>
+	
+  	<section id="result"></section>
+	<section id="threedays"></section>
+	<section id="detail"></section>
+
+
+	<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+		integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+		crossorigin="anonymous"></script>
+
+
+
+	<div class="chart_div">
+		<canvas id="myChart"></canvas>
+	</div>
+		  
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
